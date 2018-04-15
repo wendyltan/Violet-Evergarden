@@ -7,6 +7,8 @@
 
 import click
 from violet import *
+from violet.wilove import readQuote, getRanQuote
+
 
 @click.group()
 def violet():
@@ -52,6 +54,14 @@ def audio2text(audiopath):
             click.echo('text file generate success!check your file under speech/')
         else:
             click.echo('something wrong happened,please try again')
+
+@violet.command()
+@click.option('--love',help='Don\'t know what is love ? Violet chan will tell you')
+def whatislove(love):
+    # get only one at a time
+    quotes = readQuote()
+    if quotes != None:
+        click.echo(getRanQuote(quotes))
 
 if __name__ == '__main__':
     violet()

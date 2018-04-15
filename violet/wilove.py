@@ -46,7 +46,7 @@ def getQuotes(url, count):
             quotes.append(row.a.img['alt'])
     print("quotes: ",counter)
     # write quotes into file
-    with open("love/love.txt", "w",encoding='utf-8') as f:
+    with open("violet/love/love.txt", "w",encoding='utf-8') as f:
         for row in result:
             if (row.a != None):
                 counter += 1
@@ -64,8 +64,8 @@ def readQuote():
     """
     quotes = []
     #see if love text exist,if not ,update from website...
-    if os.path.exists('love/love.txt'):
-        with open('love/love.txt','r') as f:
+    if os.path.exists('violet/love/love.txt'):
+        with open('violet/love/love.txt','r') as f:
             for line in f.readlines():
                 line.replace('\n',"")
                 quotes.append(line)
@@ -87,9 +87,5 @@ def getRanQuote(quotes):
     randex = random.randint(1, quotes.__len__())
     return quotes[randex]
 
-# get only one at a time
-quotes = readQuote()
-if quotes!=None:
-    print(getRanQuote(quotes))
 
 

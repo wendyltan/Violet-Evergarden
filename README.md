@@ -42,16 +42,17 @@ SenderQQMail = your_qq_mail_address
 - 点击`文字邮件`则需要你手动输入邮件的内容
 - 生成的音频应该在`wave/`目录下
 - 语音转文字之后的文本在`speech/`目录下
+- 爬虫爬取到的love语句在`love/`目录下
 - 只需添加你的发信人邮箱和发信主题即可，剩下的薇尔莉特会帮你完成
 
 ### 或者
 
 使用命令行版本
-输入`python core_cmd.py --help`或者`python core_cmd.py [comand] --help`查看相应的帮助
+输入`python core_cmd.py --help`或者`python core_cmd.py [comand] --help`查看相应的帮助。运行相应的命令请使用`python core_cmd.py [options]`
 
 ## 理想化的将来能做什么？
 
-- 告诉你`爱`是什么(使用爬虫抓取爱的名言警句)
+- ~~告诉你`爱`是什么(使用爬虫抓取爱的名言警句)~~
 - ~~具有图形界面~~
 - 全局设置的功能
 - ~~使用cli改善程序,提供命令行版本的使用方法~~
