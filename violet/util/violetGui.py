@@ -44,6 +44,7 @@ class violetGui(tk.Frame):
         menubar.add_cascade(label='菜单', menu=filemenu)
         filemenu.add_command(label='语音文字', command=self.record_sound)
         filemenu.add_command(label='文字邮件', command=self.send_email)
+        filemenu.add_command(label='爱是什么',command=self.what_is_love)
         filemenu.add_separator()
         filemenu.add_command(label='关于', command=self.about)
         filemenu.add_command(label='退出', command=self.master.quit)
@@ -65,6 +66,9 @@ class violetGui(tk.Frame):
 
     def record_sound(self):
         r = RecordEmailDialog(self.master)
+
+    def what_is_love(self):
+        w = LoveDialog(self.master)
 
     def send_email(self):
         d = EmailDialog(self.master)

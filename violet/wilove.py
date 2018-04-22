@@ -85,7 +85,7 @@ def getRanQuote(quotes):
     :return:
     """
     randex = random.randint(1, quotes.__len__())
-    return quotes[randex]
+    return quotes[randex-1]
 
 
 

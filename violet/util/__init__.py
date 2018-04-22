@@ -11,4 +11,5 @@ import tkinter.messagebox as mb
 from violet.util import helper as hp
 from violet.util.emailDlg import EmailDialog
 from violet.util.record_emailDlg import RecordEmailDialog
+from violet.util.loveDlg import LoveDialog
 from PIL import ImageTk
