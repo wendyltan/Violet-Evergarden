@@ -77,5 +77,8 @@ SenderQQMail = your_qq_mail_address
 ### 大功告成！
 ![violet](img/s6.png)
 
+## 友链
+[violet_client](https://github.com/AuthurExcalbern/Violet)
+
 ## 感谢
 `Anqurvanillapy`的提醒
