@@ -50,12 +50,9 @@ SenderQQMail = your_qq_mail_address
 使用命令行版本
 输入`python core_cmd.py --help`或者`python core_cmd.py [comand] --help`查看相应的帮助。运行相应的命令请使用`python core_cmd.py [options]`
 
-## 理想化的将来能做什么？
-
-- ~~告诉你`爱`是什么(使用爬虫抓取爱的名言警句)~~
-- ~~具有图形界面~~
+## TODO
 - 全局设置的功能
-- ~~使用cli改善程序,提供命令行版本的使用方法~~
+
 
 ## 部分效果图
 
@@ -77,8 +74,11 @@ SenderQQMail = your_qq_mail_address
 ### 大功告成！
 ![violet](img/s6.png)
 
+### 什么是爱
+![violet](img/s7.png)
 ## 友链
 [violet_client](https://github.com/AuthurExcalbern/Violet)
+一位小哥的邮件查看violet版本
 
 ## 感谢
 `Anqurvanillapy`的提醒
