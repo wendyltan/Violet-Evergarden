@@ -82,3 +82,6 @@ SenderQQMail = your_qq_mail_address
 
 ## 感谢
 `Anqurvanillapy`的提醒
+
+## R.I.P
+Pray for kyoani's fire accident in 2019.7 and wish it rise again.
